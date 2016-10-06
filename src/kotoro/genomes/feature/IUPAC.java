@@ -6,6 +6,7 @@ package kotoro.genomes.feature;
 
 
 import java.util.HashMap;
+import java.util.regex.Pattern;
 
 public class IUPAC {
     HashMap<Character, char[]> MatchingCharacters;

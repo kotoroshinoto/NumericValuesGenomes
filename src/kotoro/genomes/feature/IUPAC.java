@@ -145,5 +145,15 @@ public class IUPAC {
 
     private static IUPAC codes = new IUPAC();
 
+    boolean compareIUPAC(char sym1, char sym2){
+        // todo method stub
+        return false;
+    }
+
+    boolean compareIUPAC(String seq1, String seq2){
+        // todo method stub
+        return false;
+    }
+
 
 }

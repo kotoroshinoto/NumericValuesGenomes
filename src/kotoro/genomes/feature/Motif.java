@@ -3,10 +3,8 @@ package kotoro.genomes.feature;
 /**
  * Created by mgooc on 10/5/2016.
  */
-public class Motif {
-    public enum MotifType {
-        BRE, TATA, INR, CENTROMERE, TELOMERE
-    }
+public enum Motif {
+    BRE, TATA, INR, CENTROMERE, TELOMERE, PROMOTER
 }
 //NOTE: I am ignoring DPEs for now as their role in vertebrates isn't well established.
 

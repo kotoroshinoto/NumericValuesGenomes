@@ -1,4 +1,4 @@
-package kotoro.genomes;
+package kotoro.genomes.feature;
 
 /**
  * Created by mgooc on 10/3/2016.

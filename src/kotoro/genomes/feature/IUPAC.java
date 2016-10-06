@@ -140,7 +140,9 @@ public class IUPAC {
         MatchingCharacters = new HashMap<Character, char[]>();
 
         for (char sym : IUPAC_chars) {
-            MatchingCharacters.put(sym,IUPAC.getCharsForSymbol(sym));
+            char[] chars = IUPAC.getCharsForSymbol(sym);
+            MatchingCharacters.put(sym,chars);
+            REstrings.put(sym, "[" + new String(chars) + "]");
         }
     }
 
@@ -156,5 +158,14 @@ public class IUPAC {
         return false;
     }
 
+//    private String arrayJoin(char sep, char[] chars){
+//        String result = "";
+//        for (int i = 0; i < chars.length-1; i++){
+//            result += chars[i];
+//            result +=  ",";
+//        }
+//        result += chars[chars.length-1];
+//        return result;
+//    }
 
 }

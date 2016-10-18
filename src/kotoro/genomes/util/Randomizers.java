@@ -1,10 +1,10 @@
-package kotoro.genomes;
+package kotoro.genomes.util;
 
 import java.security.SecureRandom;
 /**
  * Created by mgooc on 10/6/2016.
  */
-import kotoro.genomes.feature.IUPAC;
+
 public class Randomizers {
     private static SecureRandom random = new SecureRandom();
     public char getRandomIUPAC(){

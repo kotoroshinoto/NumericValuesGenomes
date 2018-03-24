@@ -33,5 +33,6 @@ public class Evolution {
         System.out.println("MIXED");
         mix_result.print_cmyk();
         mix_result.print_rgb();
+//        System.out.println(Evolution.class.getClassLoader().getResource("icc/CMYK/USWebUncoated.icc"));
     }
 }

@@ -8,7 +8,7 @@ import java.awt.color.ICC_Profile;
 class ColorSpaceLoader{
     static ICC_ColorSpace get_cmyk_color_space(){
         try{
-            ICC_Profile cmyk_prof = ICC_Profile.getInstance("C:\\Users\\mgooc\\IdeaProjects\\NumericValueGenomes\\icc\\CMYK\\USWebUncoated.icc");
+            ICC_Profile cmyk_prof = ICC_Profile.getInstance(ColorSpaceLoader.class.getClassLoader().getResourceAsStream("icc/CMYK/USWebUncoated.icc"));
             return new ICC_ColorSpace(cmyk_prof);
         } catch (java.io.IOException e){
             return null;

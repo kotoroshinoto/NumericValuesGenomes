@@ -1,4 +1,4 @@
-package kotoro.genomes.util;
+package kotoro.util;
 
 import java.security.SecureRandom;
 /**

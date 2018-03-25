@@ -1,6 +1,6 @@
-package kotoro.genomes;
+package kotoro.genomes.features;
 
-import kotoro.genomes.util.Motif;
+import kotoro.util.Motif;
 import java.util.ArrayList;
 
 /**

@@ -1,9 +1,8 @@
-package kotoro.genomes.util;
+package kotoro.util;
 
-import kotoro.genomes.gene.Gene;
+import kotoro.genomes.features.gene.Gene;
 import java.util.LinkedList;
 import java.util.HashMap;
-import java.util.Arrays;
 
 class RNApol {
     public static String transcribe(Gene g){

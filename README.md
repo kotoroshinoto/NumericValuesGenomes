@@ -15,7 +15,10 @@ One value set for colors/pigments
 
 ## How to get value from nucleotide sequence: 
 - transcribe DNA to RNA 
-- translate RNA to AA: 
+- translate RNA to AA:
+- walk through AA sequence looking at 4-grams
+- track any runs of continuous adding or subtracting. 
+  - Zeroes or a switch between + or - will reset a run.
 
 ## More Thoughts on genome behaviors
 Haploid genomes should have same interface as Diploid Genomes overall, with meiosis function for diploids, and nuclear fusion for haploids.

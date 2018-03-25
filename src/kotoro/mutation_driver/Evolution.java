@@ -28,7 +28,7 @@ public class Evolution {
         color_blue.print_cmyk();
         color_blue.print_rgb();
         System.out.println("MIXING");
-        ColorMix mix = new ColorMix( color_red, color_yellow, color_blue, color_black);
+        ColorMix mix = new ColorMix( color_red, color_blue, color_black);
         MixableColor mix_result = mix.get_substractive_color();
         System.out.println("MIXED");
         mix_result.print_cmyk();

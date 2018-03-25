@@ -1,4 +1,6 @@
-package kotoro.util;
+package kotoro.random;
+
+import kotoro.util.IUPAC;
 
 import java.security.SecureRandom;
 /**

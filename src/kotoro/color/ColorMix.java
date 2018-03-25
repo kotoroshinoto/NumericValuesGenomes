@@ -1,5 +1,6 @@
 package kotoro.color;
 
+import java.awt.color.ColorSpace;
 import java.util.Collection;
 import java.util.ArrayList;
 import java.awt.Color;
@@ -62,6 +63,11 @@ public class ColorMix {
 
     public MixableColor get_additive_color(){
         return new MixableColor(new Color(MixableColor.ciexyz, this.get_centroid(true), 1.0f));
+    }
+    public MixableColor get_RGB_mean(){
+        int mean_r=0, mean_g=0, mean_b=0;
+        // TODO method stub, implement plz
+        return new MixableColor((new Color(mean_r, mean_g, mean_b)));
     }
 
 }

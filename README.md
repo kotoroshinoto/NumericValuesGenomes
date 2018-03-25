@@ -25,3 +25,6 @@ Haploid genomes should have same interface as Diploid Genomes overall, with meio
 Reproductive functions: clonal_repr(int numoffspr), sex_repr(Diploid other, int numoffspr), both will apply mutations to genome in the process of reproducing, while one will additionally use meiosis and fusion to produce the final offspring.
 
 Should thus be able to simulate haploid genomes that can reproduce by cloning themselves.
+
+## Plans for Motifs will be scrapped for now
+This sort of evolvable feature is too complicated to simulate easily, need to think more on how to do so

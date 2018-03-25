@@ -7,6 +7,7 @@ package kotoro.util;
 
 import java.util.HashMap;
 
+@Deprecated
 public class IUPAC {
     HashMap<Character, char[]> MatchingCharacters;
     HashMap<Character, String> REstrings;
